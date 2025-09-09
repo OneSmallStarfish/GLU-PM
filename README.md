@@ -5,6 +5,18 @@ Log understanding is essential for maintaining system reliability and security. 
 
 ![Framework of GLU-PM](https://github.com/OneSmallStarfish/GLU-PM/blob/main/fig/fig1.png)
 
+## Installation
+### Requirements
+-torch==2.1.0
+-transformers==4.38.2
+-huggingface-hub==0.21.3
+
+
+## Quick Start
+### Pre-training
+`python pretrain_all.py`
+
+
 
 ## Acknowledgements
 Our code is developed with reference to [KnowLog](https://github.com/LeaperOvO/KnowLog) and [StableNet](https://github.com/xxgege/StableNet).
