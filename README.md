@@ -14,7 +14,7 @@ Log understanding is essential for maintaining system reliability and security. 
 
 ## Quick Start
 ### Pre-training
-```python pretrain_all.py
+```python pretrain_all.py```
 
 
 
