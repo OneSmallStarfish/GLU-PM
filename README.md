@@ -10,9 +10,7 @@ Log understanding is essential for maintaining system reliability and security. 
 - torch==2.1.0
 - transformers==4.38.2
 - huggingface-hub==0.21.3
-- 项目一
-- 项目二
-- 项目三
+
 
 ## Quick Start
 ### Pre-training
