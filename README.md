@@ -1,3 +1,6 @@
 # GLU-PM: A Pre-trained Model Towards Generalized Log Understanding
 
-We will release the code after the review process is complete.
+abstract
+Log understanding is essential for maintaining system reliability and security. Although pre-trained models have improved log analysis, they still face limitations in generalizing to diverse log-related tasks due to structural regularities and domain-specific challenges. To address these issues, this paper proposes GLU-PM, a Generalized Log Understanding Pre-trained Model. First, GLU-PM applies the Hilbert-Schmidt Independence Criterion (HSIC) to reduce statistical correlations among features, which arise from the standardized and semi-structured design of log data. It alleviates the tendency of the model to overfit superficial patterns and enhances the ability to capture deeper semantic relationships. Moreover, the model is pre-trained on knowledge-enriched log corpora with two domain-specific objectives—contrastive learning and abbreviation prediction—to better capture contextual semantics and specialized terminology. Experimental results on multiple log analysis tasks demonstrate the strong generalization ability, domain adaptability, and practical value of GLU-PM.
+
+https://github.com/OneSmallStarfish/GLU-PM/blob/main/fig/fig1.png
