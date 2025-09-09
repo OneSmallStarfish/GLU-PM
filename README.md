@@ -21,6 +21,11 @@ Our code employs the **“roberta-base”** model as the backbone.
 python pretrain_all.py
 ```
 
+### Downstream Tasks
+```
+python finetune_MC.py
+```
+
 
 ## Acknowledgements
 Our code is developed with reference to [KnowLog](https://github.com/LeaperOvO/KnowLog) and [StableNet](https://github.com/xxgege/StableNet).
