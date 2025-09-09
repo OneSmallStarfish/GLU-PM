@@ -15,6 +15,8 @@ Log understanding is essential for maintaining system reliability and security. 
 ## Quick Start
 ### Pre-training
 
+Our code employs the **“roberta-base”** model as the backbone.
+
 ```
 python pretrain_all.py
 ```
