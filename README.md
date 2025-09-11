@@ -26,6 +26,10 @@ python pretrain_all.py
 python finetune_MC.py
 ```
 
+### External validation
+```
+python finetune_external.py
+```
 
 ## Acknowledgements
 Our code is developed with reference to [KnowLog](https://github.com/LeaperOvO/KnowLog) and [StableNet](https://github.com/xxgege/StableNet).
