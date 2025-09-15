@@ -26,7 +26,7 @@ python pretrain_all.py
 python finetune_MC.py
 ```
 
-### External validation
+### External Validation
 ```
 python finetune_external.py
 ```
