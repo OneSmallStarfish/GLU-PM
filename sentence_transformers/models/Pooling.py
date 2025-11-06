@@ -141,7 +141,7 @@ class Pooling(nn.Module):
             pooling_mode_mean_tokens = (pooling_mode == 'mean')
             pooling_mode_weightedmean_tokens = (pooling_mode == 'weightedmean')
             pooling_mode_lasttoken = (pooling_mode == 'lasttoken')
-            pooling_mode_weigth = (pooling_mode == 'feaweigth')
+            pooling_mode_weigth = (pooling_mode == 'weigth')
 
         self.word_embedding_dimension = word_embedding_dimension
 
@@ -178,7 +178,7 @@ class Pooling(nn.Module):
         if self.pooling_mode_lasttoken:
             modes.append('lasttoken')
         if self.pooling_mode_weigth:
-            modes.append('feaweigth')
+            modes.append('weigth')
 
         return "+".join(modes)
 
